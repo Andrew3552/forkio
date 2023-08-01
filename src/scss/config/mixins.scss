@@ -1,0 +1,25 @@
+@mixin f-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+@mixin f-r-sb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin f-column{
+  display: flex;
+  flex-direction: column;
+}
+@mixin f-center{
+  display: flex;
+  justify-content: center;
+}
+@mixin montserrat-400{
+  font-family: Montserrat;
+  font-weight: 400;
+}
+@mixin montserrat-700{
+  font-family: Montserrat;
+  font-weight: 700;
+}
